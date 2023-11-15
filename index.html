@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.0.7/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Foodie</title>
+</head>
+
+<body>
+
+    <div class="bg-gradient-to-r from-[#e1eaf1] to-[#f3f8fb]">
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Menu</a></li>
+                        <li><a>Reviews</a></li>
+                        <li><a>About</a></li>
+                    </ul>
+                </div>
+                <img class="h-14" src="https://i.ibb.co/Kjth4tF/Foodie.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Menu</a></li>
+                    <li><a>Reviews</a></li>
+                    <li><a>About</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <input type="text" placeholder="Search" class="input input-bordered w-50 md:w-auto" />
+            </div>
+        </div>
+        
+
+        <!-- top -->
+        <div class="lg:flex flex-row-reverse p-5 lg:p-20">
+
+            <div class="lg:w-1/2">
+                <img src="https://i.ibb.co/RzJ7TSF/indian-cuisine-vegetarian-cuisine-chinese-cuisine-catering-food-others-d8f47efdfa6594dde2078da4ad386.png"
+                    alt="">
+            </div>
+            <div class="lg:w-1/2 lg:p-20 text-center lg:text-start">
+                <h1 class="font-bold text-6xl">Eat Today</h1>
+                <h1 class="text-5xl mt-3">Live another day</h1>
+                <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ad quisquam deserunt rem
+                    minus fugiat</p>
+                <input type="text" placeholder="Search Your here" class="mt-5 input input-bordered w-full " />
+                <div class="flex w-full mt-5">
+                    <button
+                        class="grid flex-grow card rounded place-items-center btn bg-[#fe5721] text-white">Secondary</button>
+                    <div class="divider divider-horizontal">OR</div>
+                    <button
+                        class="grid flex-grow card rounded place-items-center btn btn-outline border-[#fe5721] text-[#fe5721]">Secondary</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 m-5 lg:m-20 ">
+        <div class=" border-2 p-5 rounded-xl">
+            <div class="flex gap-5 mb-5">
+                <img class="h-14 bg-[#fae5df] rounded p-2"
+                    src="https://www.pngall.com/wp-content/uploads/11/Fast-Delivery-PNG-Pic.png" alt="">
+                <h1 class="font-bold">Fast Delivery</h1>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate dignissimos debitis
+                </p>
+            </div>
+        </div>
+        <div class=" border-2 p-5 rounded-xl">
+            <div class="flex gap-5 mb-5">
+                <img class="h-14 bg-[#fae5df] rounded p-2"
+                    src="https://st2.depositphotos.com/7752738/11625/v/950/depositphotos_116250234-stock-illustration-grocery-bag-vector-illustration-isolated.jpg"
+                    alt="">
+                <h1 class="font-bold">Pick your food</h1>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate dignissimos debitis
+                </p>
+            </div>
+        </div>
+        <div class=" border-2 p-5 rounded-xl">
+            <div class="flex gap-5 mb-5">
+                <img class="h-14 bg-[#fae5df] rounded p-2"
+                    src="https://previews.123rf.com/images/modisketch/modisketch1805/modisketch180500004/100632759-fast-food-cart-vector-illustration.jpg"
+                    alt="">
+                <h1 class="font-bold">Best food in town</h1>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate dignissimos debitis
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd banner -->
+    <div class="lg:flex flex-row p-5 lg:p-20">
+
+        <div class="lg:w-1/2">
+            <img class="mx-auto block" src="https://i.ibb.co/KVQRrNx/Untitled-design-5.png" alt="">
+        </div>
+        <div class="lg:w-1/2 lg:p-20 text-center lg:text-start">
+            <p class="text-[#fe5721] font-bold">Our Popular</p>
+            <h1 class="font-bold text-6xl mt-3">5000+</h1>
+            <h1 class="text-5xl mt-3">Food Item</h1>
+            <p class="mt-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ad quisquam deserunt rem
+                minus fugiat</p>
+            <button
+                class="grid mt-5 w-full lg:w-60 mx-auto lg:mx-0 lg:flex-grow card rounded place-items-center btn bg-[#fe5721] text-white">Check
+                Menu</button>
+
+
+        </div>
+    </div>
+
+    <!-- item card -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 justify-items-center">
+        <div class="card w-96 bg-base-100 shadow-2xl border-4">
+            <figure class="p-4"><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg"
+                    alt="Shoes" class="h-60 rounded-xl" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Food Shop
+                    <div class="badge badge-secondary">20% Off</div>
+                </h2>
+                <p>Sylhet,Bangladesh</p>
+                <div class="card-actions justify-end">
+                    <div class="badge badge-outline"><img class="h-5 mr-2"
+                            src="https://i.ibb.co/nsNv5DL/Untitled-design-7.png" alt="">4.5/5</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card w-96 bg-base-100 shadow-2xl border-4">
+            <figure class="p-4"><img
+                    src="https://img.freepik.com/free-photo/grilled-cheeseburger-sesame-bun-with-fresh-toppings-generative-ai_188544-12325.jpg"
+                    alt="Shoes" class="h-60 rounded-xl" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Red Food Hourse
+                </h2>
+                <p>Dhaka,Bangladesh</p>
+                <div class="card-actions justify-end">
+                    <div class="badge badge-outline"><img class="h-5 mr-2"
+                            src="https://i.ibb.co/nsNv5DL/Untitled-design-7.png" alt="">4.7/5</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card w-96 bg-base-100 shadow-2xl border-4">
+            <figure class="p-4"><img
+                    src="https://img.delicious.com.au/2hUHdiwU/w759-h506-cfill/del/2018/05/green-and-gold-rice-bowls-80254-2.jpg"
+                    alt="Shoes" class="h-60 rounded-xl" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Yum Rum
+                    <div class="badge badge-secondary">20% Off</div>
+                </h2>
+                <p>Cox Bazar,Bangladesh</p>
+                <div class="card-actions justify-end">
+                    <div class="badge badge-outline"><img class="h-5 mr-2"
+                            src="https://i.ibb.co/nsNv5DL/Untitled-design-7.png" alt="">4.5/5</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card w-96 bg-base-100 shadow-2xl border-4">
+            <figure class="p-4"><img
+                    src="https://www.foodandwine.com/thmb/jFZK3k6SMXV3J6Y6yuafYhcbYsc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Skillet-Grilled-Spatchcocked-Chicken-FT-RECIPE0521-7cdd7af6eb36490883df6287d798934e.jpg"
+                    alt="Shoes" class="h-60 rounded-xl" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Window Food
+                </h2>
+                <p>Khulna,Bangladesh</p>
+                <div class="card-actions justify-end">
+                    <div class="badge badge-outline"><img class="h-5 mr-2"
+                            src="https://i.ibb.co/nsNv5DL/Untitled-design-7.png" alt="">4.5/5</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card w-96 bg-base-100 shadow-2xl border-4">
+            <figure class="p-4"><img
+                    src="https://www.sugarspicenmore.com/wp-content/uploads/2022/04/Chicken-Malai-Boti-rotated.jpg"
+                    alt="Shoes" class="h-60 rounded-xl" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Foodi
+                    <div class="badge badge-secondary">20% Off</div>
+                </h2>
+                <p>Cox Bazar,Bangladesh</p>
+                <div class="card-actions justify-end">
+                    <div class="badge badge-outline"><img class="h-5 mr-2"
+                            src="https://i.ibb.co/nsNv5DL/Untitled-design-7.png" alt="">4.5/5</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card w-96 bg-base-100 shadow-2xl border-4">
+            <figure class="p-4"><img
+                    src="https://hips.hearstapps.com/hmg-prod/images/pasta-alla-vodka-recipe-2-64889fd474b83.jpg"
+                    alt="Shoes" class="h-60 rounded-xl" /></figure>
+            <div class="card-body">
+                <h2 class="card-title">
+                    Pasta Time
+                    <div class="badge badge-secondary">20% Off</div>
+                </h2>
+                <p>Cox Bazar,Bangladesh</p>
+                <div class="card-actions justify-end">
+                    <div class="badge badge-outline"><img class="h-5 mr-2"
+                            src="https://i.ibb.co/nsNv5DL/Untitled-design-7.png" alt="">4.5/5</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- faq -->
+
+    <div class="mt-20 lg:p-60">
+        <h1 class="text-center mb-20 font-bold text-4xl">Frequently Asked Questions</h1>
+        <div class="collapse collapse-plus bg-base-200 mb-5">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">
+                Got Wrong order what to do?
+            </div>
+            <div class="collapse-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quisquam, velit nostrum quo aspernatur
+                    explicabo expedita! Incidunt omnis molestias numquam, veritatis, voluptatem molestiae rem harum qui
+                    magnam dolor odit minima!</p>
+            </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200 mb-5">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+                How to take refund ?
+            </div>
+            <div class="collapse-content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum doloremque ipsam doloribus dicta
+                    asperiores alias optio eaque voluptatum nulla deserunt expedita amet libero debitis, quisquam cum
+                    sint repudiandae aperiam modi?</p>
+            </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200 mb-5">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+                How to give food review ?
+            </div>
+            <div class="collapse-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat dolor perspiciatis
+                    veritatis possimus saepe nisi eos quos optio doloremque! Eius officiis sit ducimus blanditiis quia
+                    cum nostrum iste laudantium.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200 mb-5">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+                How to cancel the order ?
+            </div>
+            <div class="collapse-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repellat dolor perspiciatis
+                    veritatis possimus saepe nisi eos quos optio doloremque! Eius officiis sit ducimus blanditiis quia
+                    cum nostrum iste laudantium.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- download app -->
+    <div class="lg:flex flex-row p-5 lg:p-20 ">
+
+        <div class="lg:w-1/2">
+            <img class="mx-auto block" src="https://i.ibb.co/M7fQ5VW/Untitled-design-9.png" alt="">
+        </div>
+        <div class="lg:w-1/2 lg:p-20 text-center lg:text-start">
+            <p class="text-[#fe5721] font-bold">Get your food easily from our app</p>
+            <h1 class="font-bold text-5xl mt-3">Download our foodie app</h1>
+            <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ad quisquam deserunt rem
+                minus fugiat</p>
+            <div class="flex justify-center gap-5 mt-10 ">
+                <img class="h-10"
+                    src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="">
+                <img class="h-10"
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
+                    alt="">
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- keep in touch -->
+    <div class="lg:mt-10">
+        <div class="p-2 lg:p-20">
+            <div class="rounded-[50px]"
+                style="background-image: url('https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/10/Assorted-Chinese-food-set.jpg'); height: 300px; background-size: cover;">
+                <div class="bg-[#0000008a] h-full rounded-[50px] text-white text-center">
+                    <h1 class="font-bold text-2xl lg:text-3xl pt-16">Get Our Promo Code By Subscribing <br> To Our
+                        Newsletter</h1>
+
+                    <div class="join mt-10">
+                        <input class="input input-bordered join-item text-black" placeholder="Email" />
+                        <button class="btn join-item rounded-xl bg-[#f5ca56]">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- footer -->
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <aside>
+            <img class="h-20" src="https://i.ibb.co/Kjth4tF/Foodie.png" alt="">
+
+
+            <nav class="flex ml-5 gap-5 mt-5">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                        </path>
+                    </svg>
+                </a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                        </path>
+                    </svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                        </path>
+                    </svg></a>
+            </nav>
+
+        </aside>
+        <nav>
+            <header class="footer-title">Services</header>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+            <header class="footer-title">Company</header>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            <header class="footer-title">Legal</header>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+    </footer>
+    <footer class="footer items-center p-4 bg-base-200 text-base-content lg:justify-between justify-center">
+        <aside class="items-center grid-flow-col">
+
+            <p>Copyright © 2023 - All right reserved</p>
+        </aside>
+        <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+            <a><img class="h-4" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Visa_2014.svg" alt="">
+            </a>
+            <a><img class="h-4" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg"
+                    alt="">
+            </a>
+            <a><img class="h-4" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="">
+            </a>
+
+        </nav>
+    </footer>
+
+</body>
+
+</html>
